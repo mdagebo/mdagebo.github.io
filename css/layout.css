@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box; 
+    margin: 0px;
+    padding: 0px; 
+    font-family: sans-serif; 
+} 
+
+/* .Me1 {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly; */
+}  
+ .Bio {
+     text-align: auto; 
+     margin-left: 10%; 
+     display: grid;
+    /* grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly; */ 
+ } 
+
+ .Bio h2 {
+   text-align: left; 
+    margin-left: 70%;   
+    margin-left: 10%;  
+    padding: 1rem;
+    width: 80%; 
+ }
+ .Skills h2 {
+    margin-right: 2%; 
+    margin-left: 10%;  
+    padding: 1rem;
+    width: 25%; 
+    height: 100%; 
+    text-align: left; 
+    margin-bottom: 2%; 
+    display: grid;
+
+ }
+
+ .Skills {
+    text-align: auto; 
+     margin-left: 70%;  
+     display: grid;
+ }
+
+ footer {
+    display: block; 
+    justify-content: center; 
+    text-align: center; 
+    padding: 10px;  
+ }

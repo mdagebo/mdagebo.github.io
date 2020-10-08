@@ -5,16 +5,16 @@
     font-family: sans-serif; 
 } 
 
-:root { /*Notice we declare this with the same key, value pair.  */
+/* :root { /*Notice we declare this with the same key, value pair. 
     --primary-color: red;
     --secondary-color: blue;
     --tertiary-color: yellow;
-}
+} */  
 
 html {
     height: 100vh;
-    background-image: url(https://media.giphy.com/media/4H3Ii5eLChYul9p7NL/giphy.gif); 
-    background-size: 400px; /* or cover*/ 
+    background-color: rgba(226, 128, 230, 0.801); 
+    background-size: 400px; /* or cover*/  
 }
 h1, h2{
     color: white; 
@@ -29,7 +29,13 @@ h1{
 h2{
     font-size: 65px;
     text-align: center; 
-}
-#home-img{
     
 }
+#Home-img { 
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50%;
+    border-radius: 8px;  
+} 
