@@ -5,12 +5,6 @@
     font-family: sans-serif; 
 } 
 
-/* :root { /*Notice we declare this with the same key, value pair. 
-    --primary-color: red;
-    --secondary-color: blue;
-    --tertiary-color: yellow;
-} */  
-
 html {
     height: 100vh;
     background-color: rgba(226, 128, 230, 0.801); 
@@ -36,6 +30,60 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto; 
-    width: 50%;
+    width: 30%;
     border-radius: 8px;  
 } 
+#Virtual-pet{
+    height: auto;
+    display: block;
+    margin-left: 30%;
+    margin-right: auto; 
+    width: 40%; 
+    border-radius: 8px;       
+}
+#Fizz-Buzz-Qix {
+    height: auto;
+    display: block;
+    margin-left: 30%; 
+    margin-right: auto; 
+    width: 40%; 
+    border-radius: 8px; 
+}
+#Savings-Account {
+    height: auto;
+    display: block;
+    margin-left: 30%; 
+    margin-right: auto; 
+    width: 40%; 
+    border-radius: 8px; 
+}
+#Email-pic {
+    height: auto;
+    display: block;
+    margin-left: 40%; 
+    margin-right: auto; 
+    width: 20%; 
+    border-radius: 8px; 
+}
+#Linkden-pic {
+    height: auto;
+    display: block;
+    margin-left: 40%;  
+    width: 20%; 
+    border-radius: 8px;  
+}
+
+.assignments { 
+    font-size: xx-large;  
+    color: white; 
+}
+nav {
+    font-size: large; 
+    color: black; 
+}
+footer {
+    font-size: large; 
+    color: black; 
+} 
+
+
