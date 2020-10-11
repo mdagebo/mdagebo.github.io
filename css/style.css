@@ -10,7 +10,7 @@ html {
     background-color: rgba(226, 128, 230, 0.801); 
     background-size: 400px; /* or cover*/  
 }
-h1, h2{
+h1, h2, h3, h6{ 
     color: white; 
 }
 a.hover{
@@ -23,67 +23,26 @@ h1{
 h2{
     font-size: 65px;
     text-align: center; 
-    
 }
-#Home-img { 
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    width: 30%;
-    border-radius: 8px;  
+nav ul li {
+    color: black; 
+}
+#about {
+    font-size: x-large; 
+}
+#skills {
+    font-size: x-large;
+}
+#projects {
+ font-size: x-large;
+ color: white; 
+}
+#contact ul li{
+font-size: x-large;
+text-align: center;
 } 
-#Virtual-pet{
-    height: auto;
-    display: block;
-    margin-left: 30%;
-    margin-right: auto; 
-    width: 40%; 
-    border-radius: 8px;       
-}
-#Fizz-Buzz-Qix {
-    height: auto;
-    display: block;
-    margin-left: 30%; 
-    margin-right: auto; 
-    width: 40%; 
-    border-radius: 8px; 
-}
-#Savings-Account {
-    height: auto;
-    display: block;
-    margin-left: 30%; 
-    margin-right: auto; 
-    width: 40%; 
-    border-radius: 8px; 
-}
-#Email-pic {
-    height: auto;
-    display: block;
-    margin-left: 40%; 
-    margin-right: auto; 
-    width: 20%; 
-    border-radius: 8px; 
-}
-#Linkden-pic {
-    height: auto;
-    display: block;
-    margin-left: 40%;  
-    width: 20%; 
-    border-radius: 8px;  
-}
 
-.assignments { 
-    font-size: xx-large;  
-    color: white; 
-}
-nav {
-    font-size: large; 
-    color: black; 
-}
-footer {
-    font-size: large; 
-    color: black; 
-} 
+
+
 
 

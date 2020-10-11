@@ -7,19 +7,60 @@
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/layout.css"> 
     </head>
-    <body> 
-            <nav> 
-                <a href ="index.html">Home</a> 
-                <a href ="about.html">About </a>
-                <a href="projects.html">Projects</a> 
-                <a href="contact.html">Contact</a> 
-            </nav> 
-            <header>
+    <body> <div class="container">
+        <nav>
+            <ul>
+               <li> <a href="#home">Home</a> </li>
+               <li> <a href="#about">About</a> </li>
+               <li> <a href="#skills">Skills</a> </li>
+               <li> <a href="#projects">Projects</a> </li>
+               <li> <a href="#contact">Contact</a> </li> 
+            </ul>
+        </nav>
+        <header>
                 <h1>Mulat Dagebo</h1> 
-                <h2>Software Developer</h2>  
+                <h2>Software Developer</h2> 
+                <h6>(loading...)</h6> 
             </header> 
-            <main> 
-            <img id= "Home-img" src= ./css/Mulat.jpg></img>  
+            <figure> 
+                <img id ="home-pic" src = ./css/Mulat.jpg></img>  
+             </figure> 
             </main>  
+            <section class ="about" id="about">
+                <h2>About Me</h2>
+                <p>
+             Greetings! I'm Mulat. I'm a student at We Can Code It and I'm training to become a software developer. In my free time I enjoy running, painting, repairing items, binge watching my favorite shows or planning my next trip. 
+                </p>
+            </section>
+           <section class="skills" id="skills">
+               <h2>Skills</h2>
+               <p> 
+            Enhancing my skills in Java, HTML, CSS, IntelliJ, and GitBash.
+             </p>
+           </section>
+           <section class="projects" id="projects">
+               <h2>Projects</h2> 
+               <article>Virtual Pet</article> 
+               <img id ="Virtual-pet" src = ./css/Virtualpet.png></img> 
+                <article>FizzBuzzQix</article> 
+               <img id ="Fizz-Buzz-Qix" src = ./css/FizzBuzzQix.png></img> 
+                <article>Savings Account</article> 
+               <img id ="Savings-Account" src = ./css/SavingsAccount.png></img> 
+               <a class="footer-content" href="https://github.com/mdagebo"> Github</a> 
+           </section>
+           <section class ="contact" id="contact">
+               <nav>  
+               <h2>Contact</h2>
+                 <img id ="Email-pic" src="https://media2.giphy.com/media/VEtsFaciC8wKkLOjpa/giphy.gif?cid=ecf05e47hkj5efft8j431mk28kpo0tnj94bwemr4ztl4bvwg&rid=giphy.gif"> </img>
+                 <p>Email: mdagebo@gmail.com</p> 
+                  <a href= "www.linkedin.com/in/mulat-dagebo">
+                <img class ="Linkden-pic" src="https://tainaoual.github.io/linked_icon.png"> </img> 
+               </a> 
+            </nav>
+           </section>
+           <footer> 
+                © mdagebo 2020 
+               </footer>
+           </div>
     </body>
 </html> 
